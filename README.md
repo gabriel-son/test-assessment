@@ -6,7 +6,7 @@ To get a local copy up and running follow these simple example steps.
 - Node v14.16.1
 - npm v7.9.0
 - Git Bash
-- 
+- Postgresql
 
 ### Installation
 1. Fork the repo and Clone your fork
@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    git reset --hard 
    ```
-5. Create an environment variable file with the following command and copy the content of *.env.example* file into it.
+5. Create an environment variable file with the following command
     ```sh
    touch .env 
    ```
